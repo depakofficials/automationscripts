@@ -1,0 +1,4 @@
+browser 	chrome
+url	https://www.facebook.com/login
+email 	deepakbe2889@gmail.com
+password	 9952606824
