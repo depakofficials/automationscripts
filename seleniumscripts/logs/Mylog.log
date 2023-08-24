@@ -1,0 +1,4 @@
+[INFO ] 2023-08-23 18:18:44.544 [main] Log4j - This is Information Message
+[ERROR] 2023-08-23 18:18:44.558 [main] Log4j - This is Error Message
+[WARN ] 2023-08-23 18:18:44.559 [main] Log4j - This is warn Message
+[FATAL] 2023-08-23 18:18:44.560 [main] Log4j - This is fatal Message
