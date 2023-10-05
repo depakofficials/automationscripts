@@ -1,0 +1,29 @@
+pipeline {
+  agent any 
+    stages {
+        stage("Build Stage") {
+          steps {
+                  echo " Developing the Project, it will take to complete for two weeks !"
+                  bat "mvn build"
+                 }
+            } 
+        stage("Test Stage") {
+          steps {
+                  echo  "Once the Development is completed, testing phase will get started !"
+                    bat "mvn clean"
+          }
+        }
+        stage("Deployment Stage") {
+          steps {
+                  echo "Once the testing is completed, we will push the code through Continous Integration tools or phase !"
+                    bat "mvn test"
+          }
+        }
+        stage("Release Stage") {
+          steps {
+                echo "Once they Deplogment Team is deployed from code, Devops Engineer ready to push from code throught Live Phase !"
+                  bat "mvn compile"
+          }
+        }
+  }
+}
